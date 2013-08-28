@@ -140,7 +140,7 @@ abstract class JViewHtml extends JViewBase
 		// Check if the layout path was found.
 		if (!$path)
 		{
-			throw new RuntimeException('Layout Path Not Found');
+			//throw new RuntimeException('Layout Path Not Found');
 		}
 
 		// Start an output buffer.
